@@ -10,16 +10,13 @@
         z-index: 2;
         background: #fff;
     }
+    
     .navbar-brand{
-        width: 80%;
+        width: 70%;
+        font-size: 200%;
         text-decoration: none;
         display: inline-block;
-        font-size: 40px;        
-        position: absolute;
-        top: 50%;
-        left: 0;
-        transform: translate(0,-50%);
-        margin-left: 5px;
+        margin: 13px 0 0 5px;
     }
     .navbar-icon{
         text-decoration: none;
@@ -29,13 +26,10 @@
         float: right;
         border: 1px solid gray;
         border-radius: 5px;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translate(0,-50%);
         background: #fff;
-        margin-right: 5px;
+        margin: 5px 5px 0 0;
     }
+
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
@@ -119,5 +113,15 @@
     .mh-slide{
         width: 250px;
         transition: all 0.5s ease;
+    }
+}
+@media screen and (max-width: 320px) {
+    .navbar-brand{
+        font-size: 150%;
+        width: 55%;
+        margin: 20px 0 0 5px;
+    }
+    .navbar-icon{
+        
     }
 }
